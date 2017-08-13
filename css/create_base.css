@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+.wrap{
+	width: 64rem;
+	margin: 0 auto;
+}
+.top{
+	width:64rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: black;
+	margin-bottom: 1rem;
+}
+.top>span{
+	color: white;
+	margin-left: 10%;
+	float: left;
+}
+.top>button{
+	border: 1px solid #AAAAAA;
+	outline: medium;
+	background-color: white;
+}
+.top>button>a{
+	color: black;
+	text-decoration: none;
+	font-size: 1rem;
+}
+.nav{
+	float: left;
+}
+.nav>li{
+	float: left;
+	list-style: none;
+	color: white;
+	margin: 0 1rem;
+}
+.nav>li>a{
+	color: white;
+	text-decoration: none;
+}
+.base{
+	width: 57.6rem;
+	margin: 0 auto;
+}
+.base>img{
+	width: 19rem;
+	height: 20.8rem;
+}
+.page{
+	width: 57.4rem;
+	height: 4rem;
+	line-height: 4rem;
+	margin: 0 auto;
+	border: 1px solid lightgray;
+}
+.page>ul{
+	float: left;
+	padding: 1rem;
+}
+.page>ul>li{
+	float: left;
+	list-style: none;
+	border: 1px solid lightgray;
+	width: 2rem;
+	height: 2rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.page>ul>li:first-child{
+	background-color: blue;
+}
+input[type="text"]{
+	width: 2rem;
+	height: 1.8rem;
+	font-size: 0.6rem;
+	text-align: center;
+}
+.page>button{
+	margin-left: 0.5rem;
+	font-size: 0.6rem;
+	background-color: transparent;
+	border: none;
+	outline: medium;
+	vertical-align: middle;
+}
+footer{
+	width:57.6rem;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	background: url(../img/u50_normal.png) no-repeat;
+}
+footer>ul{
+	float: left;
+}
+footer>ul>li{
+	float: left;
+	list-style: none;
+	width: 11.5rem;
+	text-align: center;
+}

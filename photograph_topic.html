@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/photograph_topic.css" />
+		<script src="js/jqmin.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			document.addEventListener('plusready', function() {
+				//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<span>CRI摄影协会</span>
+				<ul class="nav">
+					<li>
+						<a href="index.html">主页</a>
+					</li>
+					<li>协会广场</li>
+					<li>
+						<a href="photograph_topic.html">摄影专题</a>
+					</li>
+					<li>摄影学堂</li>
+					<li>摄影展览</li>
+					<li>
+						<a href="create_base.html">创作基地</a>
+					</li>
+					<li>关于我们</li>
+				</ul>
+				<button><a href="login.html">登录</a></button>
+			</div>
+			<div class="sort">
+				<ul>
+					<li>全部</li>
+					<li>纪实</li>
+					<li>人像</li>
+					<li>动物</li>
+					<li>植物</li>
+					<li>新闻</li>
+					<li>更多+</li>
+					<li class="more">纪实</li>
+					<li class="more">人像</li>
+					<li class="more">动物</li>
+					<li class="more">植物</li>
+					<li class="more">新闻</li>
+				</ul>
+			</div>
+			<div class="photo">
+				<div id="img1">
+					<img src="img/u44_normal.jpg" />
+					<p id="comment1" v-if="disp1">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+				<div id="img2">
+					<img src="img/u46_normal.jpg" />
+					<p id="comment2" v-if="disp2">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+				<div id="img3">
+					<img src="img/u48_normal.jpg" />
+					<p id="comment3" v-if="disp3">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+				<div id="img4">
+					<img src="img/u50_normal.jpg" />
+					<p id="comment4" v-if="disp4">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+				<div id="img5">
+					<img src="img/u52_normal.jpg" />
+					<p id="comment5" v-if="disp5">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+				<div id="img6">
+					<img src="img/u54_normal.jpg" />
+					<p id="comment6" v-if="disp6">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+				<div id="img7">
+					<img src="img/u56_normal.jpg" />
+					<p id="comment7" v-if="disp7">
+						<img src="img/u77_normal.png" /><span>99+</span>
+						<img src="img/u75_normal.png" /><span>99+</span>
+						<img src="img/u81_normal.png" /><span>99+</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="js/topic.js" type="text/javascript" charset="utf-8"></script>

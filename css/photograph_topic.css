@@ -1,0 +1,315 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+.wrap{
+	width:64rem;
+	margin: 0 auto;
+}
+.top{
+	width:64rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: black;
+}
+.top>span{
+	color: white;
+	margin-left: 10%;
+	float: left;
+}
+.top>button>a{
+	color: black;
+	text-decoration: none;
+}
+.nav{
+	float: left;
+}
+.nav>li{
+	float: left;
+	list-style: none;
+	color: white;
+	margin: 0 1rem;
+}
+.nav>li>a{
+	color: white;
+	text-decoration: none;
+}
+.sort{
+	width: 60.2rem;
+	margin: 0 auto;
+	margin-top:1rem ;
+	height: 5rem;
+	line-height: 5rem;
+	margin-bottom: 1rem;
+}
+.sort>ul{
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+}
+.sort>ul>li{
+	float: left;
+	list-style: none;
+	width:8.57rem;
+	font-size: 1.8rem;
+}
+.sort>ul>li:hover{
+	width:8.57rem;
+	height: 5rem;
+	background:url(../img/u2_mouseOver.png) no-repeat;
+	background-size:8.57rem 4rem;
+	background-position: center;
+}
+.photo{
+	width: 60.2rem;
+	margin: 0 auto;
+}
+.photo>div{
+	margin-bottom: 2px;
+}
+.photo>#img1{
+	position: relative;
+	width: 30rem;
+	height: 20rem;
+	float: left;
+}
+.photo>#img1>img{
+	width: 30rem;
+	float: left;
+}
+.photo>#img1>#comment1{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:15rem;
+}
+.photo>#img1>#comment1>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img1>#comment1>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img1>#comment1>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img1>#comment1>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img2{
+	position: relative;
+	width: 30rem;
+	height:42rem;
+	float: right;
+}
+.photo>#img2>img{
+	width: 30rem;
+	height:42rem;
+	float: right;
+}
+.photo>#img2>#comment2{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:37rem;
+}
+.photo>#img2>#comment2>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img2>#comment2>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img2>#comment2>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img2>#comment2>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img3{
+	position: relative;
+	width: 30rem;
+	height:19.8rem;
+	float: left;
+}
+.photo>#img3>img{
+	width: 30rem;
+	float: left;
+}
+.photo>#img3>#comment3{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:14.8rem;
+}
+.photo>#img3>#comment3>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img3>#comment3>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img3>#comment3>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img3>#comment3>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img4{
+	position: relative;
+	width: 30rem;
+	height:45.5rem;
+	float: left;
+}
+.photo>#img4>img{
+	width: 30rem;
+	float: left;
+}
+.photo>#img4>#comment4{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:40.5rem;
+}
+.photo>#img4>#comment4>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img4>#comment4>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img4>#comment4>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img4>#comment4>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+
+.photo>#img5{
+	position: relative;
+	width: 30rem;
+	height:20rem;
+	float: right;
+}
+.photo>#img5>img{
+	width: 30rem;
+	height:20rem;
+	float: right;
+}
+.photo>#img5>#comment5{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:15rem;
+}
+.photo>#img5>#comment5>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img5>#comment5>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img5>#comment5>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img5>#comment5>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+
+.photo>#img6{
+	position: relative;
+	width: 30rem;
+	height:45.1rem;
+	float: right;
+}
+.photo>#img6>img{
+	width: 30rem;
+	height:45.1rem;
+	float: right;
+}
+.photo>#img6>#comment6{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:40.1rem;
+}
+.photo>#img6>#comment6>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img6>#comment6>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img6>#comment6>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img6>#comment6>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img7{
+	position: relative;
+	width: 30rem;
+	height:21.6rem;
+	float: left;
+}
+.photo>#img7>img{
+	width: 30rem;
+	float: left;
+}
+.photo>#img7>#comment7{
+	width:30rem;
+	height:5rem;
+	line-height: 5rem;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:16.6rem;
+}
+.photo>#img7>#comment7>img:nth-child(1){
+	vertical-align: middle;
+	margin-left: 1rem;
+}
+.photo>#img7>#comment7>span{
+	color: white;
+	vertical-align: middle;
+}
+.photo>#img7>#comment7>img:nth-child(3){
+	vertical-align: middle;
+	margin-left: 10rem;
+}
+.photo>#img7>#comment7>img:nth-child(5){
+	vertical-align: middle;
+	margin-left: 1rem;
+}

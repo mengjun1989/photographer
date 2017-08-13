@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 62.5%;
+}
+.clearF:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.wrap{
+	width: 64rem;
+	height: 34rem;
+	padding-top: 4rem;
+	background: url(../img/u0_normal.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+.main{
+	width: 38rem;
+	height: 24rem;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+	text-align: center;
+}
+.main>p{
+	font-size: 2rem;
+	width: 18rem;
+	height: 3rem;
+	line-height: 3rem;
+	margin: 0 auto;
+	color: white;
+}
+#input{
+	width: 18rem;
+	margin: 0 auto;
+}	
+input[type="text"]:first-child{
+	width: 18rem;
+	height: 2rem;
+	margin-top: 1rem;
+	float: left;
+}
+input[type="password"]{
+	width: 18rem;
+	height: 2rem;
+	margin-top: 1rem;
+	float: left;
+}
+input:nth-of-type(3){
+	width: 11rem;
+	height: 2rem;
+	margin-top: 1rem;
+	float: left;
+}
+button{
+	width: 6rem;
+	height: 2.3rem;
+	border:none;
+	outline: medium;
+	float: right;
+	margin-top: 1rem;
+}
+.main>#input>span{
+	color: gray;
+}
+input[type="button"]{
+	width: 18rem;
+	margin-top: 1rem;
+	height: 3rem;
+	background-color: green;
+	color: white;
+	font-size: 2rem;
+	float: left;
+}
+#input>a{
+	float: right;
+	margin-left: 3rem;
+	margin-top: 1rem;
+	color: gray;
+	font-size: 1.8rem;
+}
